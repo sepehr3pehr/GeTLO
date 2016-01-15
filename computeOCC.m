@@ -1,4 +1,5 @@
 function [ OCC ] = computeOCC(cov, selectedTests)
+%Computes the occ vectors
 if(numel(find(selectedTests))==1)
     temp = cov(logical(selectedTests),:);
 else
