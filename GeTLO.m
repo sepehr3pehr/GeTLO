@@ -6,9 +6,9 @@ function [order,numties,numoptions] = GeTLO(coverage,dep)
 %       test case at least covers one entity
 %       dep: the depth parameter of the GeTLO algorithm
 % Outputs:
-%       res: 1*m vector of ordering
+%       order: 1*m vector of ordering
 %       numties: # ties 
-%       numopt: # candidates when ties occur
+%       numoptions: # candidates when ties occur
     
 
 
