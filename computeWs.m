@@ -1,4 +1,5 @@
 function W = computeWs(cov,N,OCC,CN)
+%Computes the wieght vectors
 nBlock = size(cov,2);
 cov = cov(:,OCC.per);
  summingInds = zeros(nBlock,size(N,2)); % Vectorizing the code instead of summing
