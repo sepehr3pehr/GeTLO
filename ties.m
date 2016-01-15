@@ -1,5 +1,5 @@
 function [selected,selectedorder] = ties(cov,selectedTests,depth)
-%resolves a ties according to the given depth parameter
+%resolves ties according to the given depth parameter
 
 nTests = size(selectedTests,1);
 if(depth>(nTests -numel(find(selectedTests))))
