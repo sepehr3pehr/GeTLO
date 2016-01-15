@@ -1,5 +1,9 @@
 function [ma,cnt,indx] = maxLex(W,sel)
-%Find the vectors with the highest lexicographical rank
+%Finds the vectors with the highest lexicographical rank
+%ma: the vector with the highest rank
+%cnt: the number of vectors with highest rank (for cases with more than one vector with the highest rank)
+%indx: indices of vectors with highest ranks
+
 w=W;
 ma = -1*ones(1,size(W,2));
 cnt = 0;
